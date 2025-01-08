@@ -1,12 +1,15 @@
-
-
-type propType={
-    name: string
-    age: number
+type HomeProps={
+  name: string,
+  age: number[],
+  fun:(n1: number, n2: number)=> number
 }
 
-const Home = ({name,age}:propType)=>{
-    return <h1> Hi {name}, you are {age} years old</h1>
-}
+export const Home = ({ name, age, fun }: HomeProps) => {
+  return (
+    <h1>
+      Hi {name}, you are {age} years old, the answer is {fun(age[0],age[1])} 
+    </h1>
+  );
+};
 
 export default Home;
