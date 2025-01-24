@@ -1,1 +1,2 @@
-Ekub is a modern twist on Ethiopia's traditional savings system, now powered by the Ethereum blockchain. It's a decentralized app, or DApp, where groups of people can come together to save money in a way that's clear, secure, and free from manipulation. By using smart contracts, Ekub automates the savings process, making sure everything is fair and safe for all participants.
+## CatchAid: Transparent Aid Distribution Using Blockchain and AI
+CatchAid is a cutting-edge platform that leverages blockchain technology, AI-driven analytics, and data science to revolutionize humanitarian aid distribution. By ensuring transparency, accountability, and efficient resource allocation, CatchAid aims to make every donation count and improve the lives of those in need.
