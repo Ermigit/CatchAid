@@ -12,3 +12,5 @@ export const Home = ({ name, age, fun }: HomeProps) => {
 };
 
 export default Home;
+
+  

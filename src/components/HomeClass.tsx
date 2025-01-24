@@ -7,8 +7,10 @@ type propType = {
   message: string;
 };
 type stateType = {
-  sub: boolean;
-  message: string;
+  name: string;
+  age: number;
+  sub: boolean
+  message: string
 };
 
 class HomeClass extends Component<propType, stateType> {
@@ -16,6 +18,8 @@ class HomeClass extends Component<propType, stateType> {
   constructor(props: propType) {
     super(props);
     this.state = {
+      name: this.props.name,
+      age: this.props.age,
       sub: this.props.sub,
       message: this.props.message,
     };
@@ -38,7 +42,7 @@ class HomeClass extends Component<propType, stateType> {
     return (
       <div>
         <h1>
-          Hi {this.props.name}, you're {this.props.age}
+          Hi {this.state.name}, you're {this.state.age}
         </h1>
         <h1>{this.state.message}</h1>
         {this.state.sub ? (
